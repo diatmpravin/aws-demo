@@ -149,6 +149,7 @@
       "DependsOn" : "GatewayToInternet",
       "Properties" : {
         "InstanceType" : "t2.micro",
+	"KeyName" : "wiki",
         "ImageId"  : "ami-d15a75c7",
         "NetworkInterfaces" : [{
           "GroupSet"                 : [{ "Ref" : "EC2SecurityGroup" }],
