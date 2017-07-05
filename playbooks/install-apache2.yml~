@@ -4,6 +4,7 @@
   become_method: sudo
   gather_facts: true
   connection: ssh
+  sudo: yes
   tasks:
   - name: install apache2
     apt: name=apache2 update_cache=yes state=latest
