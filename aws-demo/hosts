@@ -1,0 +1,5 @@
+[localhost]
+test
+
+[aws]
+ec2-54-161-227-166.compute-1.amazonaws.com
